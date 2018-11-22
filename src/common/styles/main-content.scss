@@ -75,6 +75,7 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: 1.2px;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   .page-content_date {
@@ -139,7 +140,6 @@
     &__picture {
         min-height: 130px;
         margin: 15px;
-        // width: 150px;
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
@@ -148,45 +148,44 @@
     &__description {
         margin: 0 15px 15px 15px;
         font-size: 12px;
-        // width: 150px;
         font-weight: 900;
         line-height: 1.67;
         letter-spacing: 1px;
-        color: #ffffff;
+        color: #3B3129;
     }
     &__description2 {
-        color: #c7c4e2;
+        color: #26180D;
     }
 }
 
 .tea {
     &_1{
-    background-image: url(../../assets/images/tea1.jpg);
+    background-image: url(../../assets/images/tea1.png);
     }
     &_2 {
-    background-image: url(../../assets/images/tea2.jpg);
+    background-image: url(../../assets/images/tea2.png);
     }
     &_3 {   
-    background-image: url(../../assets/images/tea3.jpg);
+    background-image: url(../../assets/images/tea3.png);
     background-size: 90%;
     }
     &_4 {   
-    background-image: url(../../assets/images/tea4.jpg);
+    background-image: url(../../assets/images/tea4.png);
     }
     &_5 {   
-    background-image: url(../../assets/images/tea5.jpg);
+    background-image: url(../../assets/images/tea5.png);
     }
     &_6 {
-    background-image: url(../../assets/images/tea6.jpg);
+    background-image: url(../../assets/images/tea6.png);
     }
     &_7 {
-    background-image: url(../../assets/images/tea7.jpg);
+    background-image: url(../../assets/images/tea7.png);
     }
     &_8 {
-    background-image: url(../../assets/images/tea8.jpg);
+    background-image: url(../../assets/images/tea8.png);
     }
     &_9 {
-    background-image: url(../../assets/images/tea9.jpg);
+    background-image: url(../../assets/images/tea9.png);
     }
 }
 
@@ -211,4 +210,8 @@
 
 .info {
     font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
 }
